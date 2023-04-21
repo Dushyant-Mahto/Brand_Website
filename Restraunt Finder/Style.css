@@ -136,3 +136,27 @@ button{
     color: rgb(48, 39, 39);
     font-weight: 700;
 }
+
+#Second{
+    padding-left: 1.5rem;
+}
+.food{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-top: 3rem;
+    position: relative;
+}
+.food-image{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 48rem;
+    margin-left: auto;
+    position: relative
+}
+.food-1{
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    width: 100%;
+    height: auto;
+    display: block;
+}
