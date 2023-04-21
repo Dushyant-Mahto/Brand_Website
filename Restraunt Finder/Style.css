@@ -92,3 +92,47 @@ body{
     width: 100%;
 }
 
+button{
+    padding: 0.5rem 1rem;
+    outline:0;
+    font-size:18px;
+    background-color:#30db86;
+    color:#ffffff;
+    border:3px solid #02fc28;
+    border:0;
+    cursor:pointer;
+    height:50px;
+    width: 100px;
+    box-shadow:0 2px 0 0 rgba(13, 100, 49, 0.3);
+    transition:all 0.3s ease;
+    border-radius: 10%;
+}
+.review-box{
+    align-items: center;
+    display: inline-flex;
+    padding-top: 1.5rem;
+}
+.man_1{
+    margin-right: 0.5rem;
+    object-fit: cover;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 9999px;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block;
+}
+.rev{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding-left: 0.625rem;
+    color: rgb(9, 2, 2);
+    font-weight: 900;
+}
+.rev-by{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-left: 0.625rem;
+    color: rgb(48, 39, 39);
+    font-weight: 700;
+}
